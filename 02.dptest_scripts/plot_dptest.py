@@ -9,8 +9,6 @@ np.random.seed(42)
 plt.style.use('seaborn-v0_8-paper') 
 plt.rcParams['font.family'] = "Arial"
 
-# Define color map anchors
-# color_anchor = ["#44BB89", "#8844ff", "#EE4455"]
 color_anchor = ["#CCCCCC", "#8484cc", "#0033F8"]
 cmap = LinearSegmentedColormap.from_list('colorbar', color_anchor)
 
