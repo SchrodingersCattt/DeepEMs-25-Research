@@ -4,6 +4,8 @@ Energetic Materials Research based on Deep Potential.
 
 This repository contains scripts, configurations, and data for molecular dynamics (MD) simulations of energetic materials, specifically focusing on the DAP (1,4-**d**iazabicyclo[2.2.2]octane-1,4-diium ($\mathrm{H_2dabco}$)-**a**lkali/**a**mmonium  **p**erchlorate) series and other related compounds. The repository is organized into several directories, each serving a specific purpose. Below is a detailed description of the contents.
 
+Relevant citation: https://arxiv.org/pdf/2503.04540
+
 ---
 
 ## Repository Structure
