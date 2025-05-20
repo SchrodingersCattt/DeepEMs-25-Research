@@ -41,7 +41,19 @@ Contains scripts for analyzing molecular dynamics simulations and statistical pr
 
 ---
 
-### **4. `confs`**
+### **4. `04.descriptor_inference`**
+Contains scripts for analyzing molecular dynamics simulations and statistical properties.
+- `00.stat_species_smiles.py`: Script for tracking and analyzing chemical species using SMILES encoding.
+- `01.stat_species_mda.py`: Script for analyzing species defined by coordinate numbers and distance cutoff using MDAnalysis.
+- `02.calc_rate_dabcos.py`: Script for calculating reaction rates of DABCOs.
+- `03.stat_collision.py`: Script for statistical analysis of molecular collisions.
+- `04.monitor_model_devi.py`: Script for monitoring model deviations during MD simulations.
+- `in_template.lmp`: Template input file for LAMMPS simulations.
+- `run_react_gen.py`: Script for running reaction generation and analysis.
+
+---
+
+### **5. `confs`**
 Contains configuration files (`POSCAR`) for various energetic materials, including the DAP series and other compounds. Each subdirectory corresponds to a specific material and its relaxed structure.
 - **DAP Series**:
   - `DAP-1`, `DAP-2`, `DAP-3`, `DAP4-order`, `DAP-5`, `DAP-6`, `DAP-7_222-order`, `DAP-M4`: Configuration files for different DAP variants.
