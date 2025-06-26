@@ -180,7 +180,7 @@ def calculate_XB_collisions(universe, type_map, B_element, start_time, end_time)
 
     # Define collision distance threshold
     collision_threshold = 1.2
-    d_cutoff = (RADII[B_element] * collision_threshold + RADII["O"])
+    d_cutoff = (RADII[B_element] + RADII["O"]) * collision_threshold
 
     N_X = len(oxygens)
     T_sim = (end_time - start_time) * universe.trajectory.dt # Simulation time for the current interval
