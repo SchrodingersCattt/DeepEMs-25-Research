@@ -1,5 +1,5 @@
-# DPA-EMs
-Energetic Materials Research based on Deep Potential.
+# DeepEMs-25-Research
+Energetic Materials Research based on Deep Potential, developed in 2025.
 
 
 This repository contains scripts, configurations, and data for molecular dynamics (MD) simulations of energetic materials, specifically focusing on the DAP (1,4-**d**iazabicyclo[2.2.2]octane-1,4-diium ($\mathrm{H_2dabco}$)-**a**lkali/**a**mmonium  **p**erchlorate) series and other related compounds. The repository is organized into several directories, each serving a specific purpose. Below is a detailed description of the contents.
@@ -20,7 +20,7 @@ Links to DeePMD models: https://aissquare.com/models/detail?pageType=models&name
 ### **1. `01.dpgen_inputs`**
 Contains configuration files and scripts for generating input files for machine learning potential (MLP) training and testing.
 - `machine.json`: The contents of this file WOULD NOT BE PUBLISHED due to privacy consideration. Readers could refer to the repo of dpgen (https://github.com/deepmodeling/dpgen).
-- `params.json`: JSON file containing parameters for DP-GEN running.
+- `params.json`: JSON file containing parameters for DP-GEN running. Please refer to the repository of DeePMD-kit (https://github.com/deepmodeling/deepmd-kit) for more details.
 - `config_params.py`: Python script for quick configuring `params.json` MLP training parameters.
 
 
