@@ -4,7 +4,7 @@ Energetic Materials Research based on Deep Potential, developed in 2025.
 
 This repository contains scripts, configurations, and data for molecular dynamics (MD) simulations of energetic materials, specifically focusing on the DAP (1,4-**d**iazabicyclo[2.2.2]octane-1,4-diium ($\mathrm{H_2dabco}$)-**a**lkali/**a**mmonium  **p**erchlorate) series and other related compounds. The repository is organized into several directories, each serving a specific purpose. Below is a detailed description of the contents.
 
-Relevant citation: https://arxiv.org/pdf/2503.04540
+Relevant citation: https://www.nature.com/articles/s41524-025-01739-7 | https://arxiv.org/pdf/2503.04540
 
 
 Links to datasets: https://aissquare.com/datasets/detail?pageType=datasets&name=EnergeticMaterials-v1&id=311
