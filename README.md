@@ -1,10 +1,9 @@
 # DeepEMs-25-Research
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41524--025--01739--7-blue)](https://doi.org/10.1038/s41524-025-01739-7)
 Energetic Materials Research based on Deep Potential, developed in 2025.
 
 
 This repository contains scripts, configurations, and data for molecular dynamics (MD) simulations of energetic materials, specifically focusing on the DAP (1,4-**d**iazabicyclo[2.2.2]octane-1,4-diium ($\mathrm{H_2dabco}$)-**a**lkali/**a**mmonium  **p**erchlorate) series and other related compounds. The repository is organized into several directories, each serving a specific purpose. Below is a detailed description of the contents.
-
-Relevant citation: https://www.nature.com/articles/s41524-025-01739-7 | https://arxiv.org/pdf/2503.04540
 
 
 Links to datasets: https://aissquare.com/datasets/detail?pageType=datasets&name=EnergeticMaterials-v1&id=311
@@ -63,3 +62,16 @@ Contains configuration files (`POSCAR`) for various energetic materials, includi
 - **Other Energetic Materials**:
   - `AN_JACFOM01_333_relaxed`, `AP_SUXRUA_222_relaxed`, `Az2Cu_icsd_28171_152`, `Az2Hg_icsd_21029_222`, `Az2Pb_icsd_1298_211`, `Az2Pb_icsd_16887_211`, `AzAg_icsd_27135_222`, `AzCu_icsd_420051_221`, `AzTl_icsd_25009_222`, `CL-20_PUBMUU03_211`, `CL-20_PUBMUU20_211_relaxed`, `CL-20_PUBMUU26_211`, `HMX_OCHTET_112`, `HMX_OCHTET12_222`, `HMX_OCHTET13_222`, `RDX_CTMTNA04_121`, `TNT_ZZZMUC01_121`, `TNT_ZZZMUC06_112`: Configuration files for various energetic materials.
 
+
+## Citation
+```bibtex
+@article{Guo2025DeepEMs25,
+  title   = {DeepEMs-25: a deep-learning potential to decipher kinetic tug-of-war dictating thermal stability in energetic materials},
+  author  = {Guo, M.Y. and Yan, Y.F. and Chen, P. and others},
+  journal = {npj Computational Materials},
+  volume  = {11},
+  pages   = {246},
+  year    = {2025},
+  doi     = {10.1038/s41524-025-01739-7}
+}
+```
